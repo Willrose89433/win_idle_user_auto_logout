@@ -4,7 +4,7 @@
     but only takes action after a configured start hour (default 8 PM).
 
 .DESCRIPTION
-    Intended to be run repeatedly (e.g. every 15 minutes) by a Scheduled Task
+    Intended to be run repeatedly (e.g. every 30 minutes) by a Scheduled Task
     between 8:00 PM and midnight. Each run:
       1. Exits immediately if the current hour is before -StartHour.
       2. Parses `quser` to find every session and its idle time.
