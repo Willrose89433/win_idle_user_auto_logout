@@ -11,8 +11,7 @@
       3. Logs off (via `logoff.exe`) any session idle longer than -ThresholdMinutes.
 
     Must run as a principal with rights to log off other users' sessions
-    (LOCAL SYSTEM works; see the Register-ScheduledTask snippet alongside
-    this script).
+    (LOCAL SYSTEM works;).
 
 .PARAMETER ThresholdMinutes
     Idle time in minutes before a session is logged off. Default 180 (3 hours).
